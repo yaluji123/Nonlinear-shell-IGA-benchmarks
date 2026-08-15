@@ -1,0 +1,5 @@
+﻿full_rank_solve_status,gram_condition_number,production_status,projection_values_finite,retained_fraction,retained_rank,weighted_constant_reproduction_error
+STABLE,7404.515970428943,Ok,True,0.5,9,3.888517302188465e-16
+STABLE,274907960338.37885,Ok,True,0.01,9,1.142293274500219e-17
+ILL_CONDITIONED,inf,Ok,True,0.0001,9,1.0639095716005485e-17
+ILL_CONDITIONED,inf,Ok,True,1e-06,6,2.252307953020239e-19

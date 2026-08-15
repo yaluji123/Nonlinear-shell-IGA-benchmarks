@@ -1,0 +1,18 @@
+Copyright (c) 2026 Yuheng Ji, Chun Fang, Zhijie Dai, Pengyu Wei,
+Deyu Wang, and Chuntong Li.
+
+All rights reserved.
+
+This repository is provided as a public reproducibility package for nonlinear
+trimmed and multipatch shell isogeometric analysis. It includes selected
+numerical data, CAD and finite-element input models, benchmark source files,
+and a packaged AutoCAD/ObjectARX runtime build.
+
+No open-source license is granted for copying, redistribution, modification,
+commercial use, or incorporation into other software unless separate written
+permission is obtained from the copyright holders.
+
+The complete AutoCAD/ObjectARX C++ implementation is not included in this
+repository and is available only from the corresponding author upon reasonable
+request, subject to project, dependency, third-party runtime, and CAD-kernel
+licensing constraints.

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Nonlinear shell IGA benchmarks"
+message: "If you use this package, please cite this repository."
+type: dataset
+version: "1.0.0"
+authors:
+  - family-names: "Ji"
+    given-names: "Yuheng"
+  - family-names: "Fang"
+    given-names: "Chun"
+  - family-names: "Dai"
+    given-names: "Zhijie"
+  - family-names: "Wei"
+    given-names: "Pengyu"
+  - family-names: "Wang"
+    given-names: "Deyu"
+  - family-names: "Li"
+    given-names: "Chuntong"
+abstract: "Reproducibility package containing nonlinear shell IGA benchmark models, independent finite-element inputs, selected response and field data, focused numerical method checks, and a packaged AutoCAD/ObjectARX runtime."
+repository-code: "https://github.com/yaluji123/Nonlinear-shell-IGA-benchmarks"
+date-released: "2026-08-15"
+license-url: "https://github.com/yaluji123/Nonlinear-shell-IGA-benchmarks/blob/main/LICENSE"

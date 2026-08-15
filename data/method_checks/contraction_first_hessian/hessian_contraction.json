@@ -1,0 +1,14 @@
+{
+  "schema": "iga.cas-nitsche-contraction-benchmark.v1",
+  "production_seams": ["AggregateCASContractionWeights", "EvaluateAndScatterAggregatedCASNitscheHessians"],
+  "base_sample_count": 64,
+  "support_dof_count": 48,
+  "repeats": 7,
+  "cases": [
+    {"equivalent_workload_multiplier": 1, "maximum_absolute_difference": 4.4408920985006262e-016, "equivalent_physics_difference_from_m1": 0, "pointwise_full_hessian_bytes": 7077888, "contracted_hessian_bytes": 18432, "memory_reduction_ratio": 384, "pointwise_median_ms": 9.9920000000000009, "contraction_first_median_ms": 7.9320000000000004, "median_speedup": 1.259707513867877},
+    {"equivalent_workload_multiplier": 2, "maximum_absolute_difference": 8.8817841970012523e-016, "equivalent_physics_difference_from_m1": 1.1102230246251565e-014, "pointwise_full_hessian_bytes": 14155776, "contracted_hessian_bytes": 18432, "memory_reduction_ratio": 768, "pointwise_median_ms": 20.215, "contraction_first_median_ms": 15.992000000000001, "median_speedup": 1.2640695347673836},
+    {"equivalent_workload_multiplier": 4, "maximum_absolute_difference": 1.3322676295501878e-015, "equivalent_physics_difference_from_m1": 1.9539925233402755e-014, "pointwise_full_hessian_bytes": 28311552, "contracted_hessian_bytes": 18432, "memory_reduction_ratio": 1536, "pointwise_median_ms": 41.131999999999998, "contraction_first_median_ms": 31.744, "median_speedup": 1.2957409274193548},
+    {"equivalent_workload_multiplier": 8, "maximum_absolute_difference": 1.7763568394002505e-015, "equivalent_physics_difference_from_m1": 3.2418512319054571e-014, "pointwise_full_hessian_bytes": 56623104, "contracted_hessian_bytes": 18432, "memory_reduction_ratio": 3072, "pointwise_median_ms": 83.072999999999993, "contraction_first_median_ms": 63.381, "median_speedup": 1.3106924788185732}
+  ],
+  "conclusion": {"contraction_first_exact": true, "workload_scaling_supported": true}
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "iga.trim-cas-rank-revelation-benchmark.v1",
+  "production_seam": "ProjectTrimAwareSymmetricCAS",
+  "assumed_basis_count": 9,
+  "relative_rank_tolerance": 9.9999999999999994e-012,
+  "cases": [
+    {"retained_fraction": 0.5, "production_status": "Ok", "retained_rank": 9, "gram_condition_number": 7404.5159704289426, "weighted_constant_reproduction_error": 3.8885173021884651e-016, "projection_values_finite": true, "full_rank_solve_status": "STABLE"},
+    {"retained_fraction": 0.01, "production_status": "Ok", "retained_rank": 9, "gram_condition_number": 274907960338.37885, "weighted_constant_reproduction_error": 1.142293274500219e-017, "projection_values_finite": true, "full_rank_solve_status": "STABLE"},
+    {"retained_fraction": 0.0001, "production_status": "Ok", "retained_rank": 9, "gram_condition_number": 1e999, "weighted_constant_reproduction_error": 1.0639095716005485e-017, "projection_values_finite": true, "full_rank_solve_status": "ILL_CONDITIONED"},
+    {"retained_fraction": 9.9999999999999995e-007, "production_status": "Ok", "retained_rank": 6, "gram_condition_number": 1e999, "weighted_constant_reproduction_error": 2.252307953020239e-019, "projection_values_finite": true, "full_rank_solve_status": "ILL_CONDITIONED"}
+  ],
+  "conclusion": {"severe_sliver_rank_revelation_required": true}
+}
