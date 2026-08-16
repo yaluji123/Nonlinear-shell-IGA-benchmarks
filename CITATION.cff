@@ -1,8 +1,13 @@
 cff-version: 1.2.0
 title: "Nonlinear shell IGA benchmarks"
 message: "If you use this package, please cite this repository."
-type: dataset
+type: software
 version: "1.0.0"
+doi: "10.5281/zenodo.21960377"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21960376"
+    description: "Concept DOI for all archived versions"
 authors:
   - family-names: "Ji"
     given-names: "Yuheng"
@@ -18,5 +23,5 @@ authors:
     given-names: "Chuntong"
 abstract: "Reproducibility package containing nonlinear shell IGA benchmark models, independent finite-element inputs, selected response and field data, focused numerical method checks, and a packaged AutoCAD/ObjectARX runtime."
 repository-code: "https://github.com/yaluji123/Nonlinear-shell-IGA-benchmarks"
-date-released: "2026-08-15"
+date-released: "2026-08-16"
 license-url: "https://github.com/yaluji123/Nonlinear-shell-IGA-benchmarks/blob/main/LICENSE"

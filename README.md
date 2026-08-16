@@ -1,5 +1,7 @@
 # Nonlinear shell IGA benchmarks
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21960376.svg)](https://doi.org/10.5281/zenodo.21960376)
+
 This repository is a compact reproducibility package for CAD-native nonlinear
 isogeometric analysis of trimmed and multipatch Kirchhoff–Love shells. It
 contains the input models, selected response and field data, focused numerical
@@ -97,7 +99,10 @@ in [`DATA_SCHEMA.md`](DATA_SCHEMA.md).
 
 ## Citation and use
 
-If you use this package, cite this repository. Author and repository metadata
-are provided in `CITATION.cff`. The bundled plug-in is distributed under the
-restricted terms in `LICENSE` because it depends on commercial CAD APIs and
-third-party numerical runtimes.
+If you use this package, cite version 1.0.0 using the version-specific DOI
+[`10.5281/zenodo.21960377`](https://doi.org/10.5281/zenodo.21960377). The
+concept DOI [`10.5281/zenodo.21960376`](https://doi.org/10.5281/zenodo.21960376)
+resolves to the latest archived version. Complete author and repository
+metadata are provided in `CITATION.cff`. The bundled plug-in is distributed
+under the restricted terms in `LICENSE` because it depends on commercial CAD
+APIs and third-party numerical runtimes.
